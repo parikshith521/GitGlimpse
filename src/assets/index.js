@@ -1,0 +1,20 @@
+export {default as home } from './home.png';
+export {default as contact} from './contact.png';
+export {default as about} from './about.png';
+export {default as logo} from './logo.png';
+export {default as phone} from './phone.png';
+export {default as mail} from './mail.png';
+export {default as ig} from './ig.png';
+export {default as fb} from './fb.png';
+export {default as x} from './x.png';
+export {default as leftArrow} from './left.png'
+export {default as rightArrow} from './right.png';
+export {default as downArrow} from './down.png';
+export {default as commits} from './commits.png';
+export {default as issues} from './issues.png';
+export {default as pullreqs} from './prs.png';
+export {default as contributions} from './contributions.png';
+export {default as repository} from './repo.png';
+export {default as commitPic} from './commit.png';
+export {default as waitcat} from './waitcat.png';
+export {default as searchIcon} from './search.png';
