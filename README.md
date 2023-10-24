@@ -20,16 +20,20 @@
 - Responsive design for mobiles, tablets etc.
 
 <h1>ISSUES</h1>
+
 - For the correct display of the tooltip, the background of the html page has to be kept transparent, therefore, only the components have a black background instead of the entire page. 
 
 <h1>PLANNED FEATURES</h1>
+
 - Implement our own tooltip instead of using an external compoenent library to solve the above mentioned issue. 
 - For a particular searched username, we can suggest similar people to search for based on the followers and network of the originally searched person.
 
 <h1>REFERENCES USED</h1>
+
 - Github GraphQL API : https://youtu.be/6xO87LlijoQ
 - Tailwind Docs : https://tailwindcss.com/docs/
 - Tooltip Component: https://mui.com/material-ui/react-tooltip/
 
 <h1>VIDEO</h1>
+
 - https://youtu.be/sYcxstoHFhM
