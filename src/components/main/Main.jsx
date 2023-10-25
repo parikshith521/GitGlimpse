@@ -31,7 +31,7 @@ const Main = () => {
 
     //function to handle the click event on the search button
     const handleClick = () => {
-        if(val!="") setUser(val);
+        if(val!=="") setUser(val);
     }
 
     //function to handle the pressing of the ENTER key by the user by running the handleClick function
@@ -52,7 +52,7 @@ const Main = () => {
     once the fetch is complete
      */
     useEffect(()=>{
-        if(user!="")
+        if(user!=="")
         {
             fetch(url, {
                 method: 'POST',
@@ -77,7 +77,7 @@ const Main = () => {
     */
     useEffect(()=>{
          setShowCard(!showCard);
-         if(user!="")
+         if(user!=="")
          {
             fetch(url, {
                  method: 'POST',
@@ -121,14 +121,14 @@ const Main = () => {
             { showCard &&  <Wait /> }
 
             {/* displayed if no user of the searched up username exists */}
-            { !showCard && fetchedData.user == '/' && 
+            { !showCard && fetchedData.user === '/' && 
                 (
                     <div className='font-Manrope text-lg text-center my-48 text-primary'><p>We're sorry, but that username doesn't seem to exist :(</p></div>
                 )
             }
 
             {/* if a valid user exists, the card component for that user is shown */}
-            { !showCard && fetchedData.user!=undefined && fetchedData.user!='/' && 
+            { !showCard && fetchedData.user!==undefined && fetchedData.user!=='/' && 
             
                 <Card data={fetchedData} /> 
             
