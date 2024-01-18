@@ -24,6 +24,7 @@
 
 <h1>PLANNED FEATURES</h1>
 
-- Implement our own tooltip instead of using an external compoenent library to solve the above mentioned issue. 
+- Implement our own tooltip instead of using an external compoenent library to solve the above mentioned issue.
+- Add search history feature for the user
 - For a particular searched username, we can suggest similar people to search for based on the followers and network of the originally searched person.
 
